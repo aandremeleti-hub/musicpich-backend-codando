@@ -1,6 +1,7 @@
 const express = require ('express')
 const router = express.Router()
+const adminController = require('../controllers/adminController')
 
-router.get('/,')
+router.get('/', adminController.listarMusicas)
 
 module.exports = router
