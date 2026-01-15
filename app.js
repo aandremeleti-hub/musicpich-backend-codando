@@ -11,5 +11,5 @@ app.use('/', router)
 const port = 8081
 
 app.listen(port, () => {
-    console.log(`Servidort rodando em ${port}`)
+    console.log(`Servidor rodando em http://localhost:${port}`)
 })
